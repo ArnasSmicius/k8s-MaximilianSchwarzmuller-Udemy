@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: second-node
-          image: arnasmic/kub-first-app
+          image: arnasmic/kub-first-app:latest
+          imagePullPolicy: Always
           livenessProbe:
             httpGet:
               path: /
