@@ -17,4 +17,5 @@ spec:
           image: arnasmic/kub-demo-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: "10.106.225.101"
+              # value: "10.106.225.101"
+              value: "auth-service.default"
