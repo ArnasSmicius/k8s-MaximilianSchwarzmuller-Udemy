@@ -17,6 +17,4 @@ spec:
           image: arnasmic/kub-demo-users:latest
           env:
             - name: AUTH_ADDRESS
-              value: localhost
-        - name: auth
-          image: arnasmic/kub-demo-auth:latest
+              value: "10.106.225.101"
